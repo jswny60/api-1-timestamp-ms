@@ -1,0 +1,20 @@
+{
+  "name": "api-1-timestamp-ms",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice for freecodecamp.org",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "postinstall": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "typescript": "^2.8.3"
+  }
+}
